@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/templates-fenn.do
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A set of templates for using LaTeX packages that the author
@@ -41,7 +39,6 @@ scrartcl.cls from the KOMA-Script bundle.
 %doc %{_texmfdistdir}/doc/latex/templates-fenn/templates-fenn-de.txt
 %doc %{_texmfdistdir}/doc/latex/templates-fenn/templates-fenn-en.txt
 %doc %{_texmfdistdir}/doc/latex/templates-fenn/vermerk.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,5 +49,3 @@ scrartcl.cls from the KOMA-Script bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
