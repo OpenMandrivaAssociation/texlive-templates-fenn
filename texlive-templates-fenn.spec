@@ -49,3 +49,16 @@ scrartcl.cls from the KOMA-Script bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20090828-2
++ Revision: 756552
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20090828-1
++ Revision: 719665
+- texlive-templates-fenn
+- texlive-templates-fenn
+- texlive-templates-fenn
+
