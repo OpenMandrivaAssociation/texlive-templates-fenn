@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-templates-fenn
-Version:	20090828
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Templates for TeX usage
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/templates/fenn
