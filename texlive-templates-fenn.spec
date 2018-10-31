@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-templates-fenn
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Templates for TeX usage
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/templates/fenn
