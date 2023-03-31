@@ -1,6 +1,6 @@
 Name:		texlive-templates-fenn
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Templates for TeX usage
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/templates/fenn
